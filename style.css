@@ -1,0 +1,36 @@
+p {
+    color: red;
+    text-align: right;
+}
+
+p {
+color: crimson;
+}
+
+.title{
+color: blueviolet;
+font-size: 30px;
+}
+
+.secondary-title{
+color: aqua;
+font-size: 30px;
+}
+
+.third_title{
+    color: chartreuse;
+    font-size: 30px;
+}
+
+h4{
+color: aquamarine;
+}
+
+#background {
+color: darkblue;
+background-color: darkorange;
+}
+
+h6{
+color: darkmagenta;
+}
