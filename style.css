@@ -10,6 +10,11 @@ color: crimson;
 .title{
 color: blueviolet;
 font-size: 30px;
+background-color: pink;
+text-align: center;
+text-decoration:crimson;
+padding: 10px;
+font-size: large;
 }
 
 .secondary-title{
@@ -33,4 +38,19 @@ background-color: darkorange;
 
 h6{
 color: darkmagenta;
+}
+
+.div1{
+color: rgb(106, 100, 5);
+font-size: bold;
+}
+
+.div2{
+background-color: tomato;
+padding: 8px
+}
+
+.div3{
+text-align: center;
+font-size: 16px;
 }
