@@ -93,3 +93,8 @@ p {
     color: rgba(0, 128, 0, 1);
     background-color: rgba(0, 0, 255, 0.3);
 }
+
+#color-name{
+    color: white;
+    background-color: grey;
+}
