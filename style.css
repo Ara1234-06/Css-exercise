@@ -66,3 +66,7 @@ padding-left: 15;
 text-align: justify;
 color: rgb(0, 0, 0);
 }
+a:hover { color: darkcyan;
+   cursor: pointer; 
+
+}
