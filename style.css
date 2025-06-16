@@ -113,3 +113,8 @@ background-color: #dc5a5a;
 color: #00ff00;
 background-color: #9c0303;
 }
+
+.container-days{
+    color: rgb(0, 251, 255);
+    text-align: center;
+}
