@@ -84,3 +84,7 @@ p {
     color: rgb(rgb(204, 37, 37), rgb(49, 176, 49), rgb(14, 14, 230));
     background-color: rgb(rgb(105, 57, 57), rgb(78, 133, 78), rgb(87, 87, 187));
 }
+#hex {
+    color: #ff0000;
+    background-color: #00FF00;
+}
