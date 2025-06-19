@@ -128,3 +128,9 @@ background-color: #9c0303;
     width: 40px;
     height: 40px;
 }
+.em__p1{
+    font-size: 7rem;
+}
+.em__p2{
+    font-size: 7em;
+}
