@@ -65,6 +65,7 @@ body{
 }
 .paragraph{
     padding: 3rem;
+    margin: 2.5rem;
 }
 a{
     color: black;
