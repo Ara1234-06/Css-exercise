@@ -26,6 +26,19 @@ padding: var(--padding-size);
    
 justify-content: left;
 }
+
+header{
+display: flex;
+justify-content: space-around;
+}
+.nav-contact{
+    border: solid black;
+    border-radius: 8px;
+padding-top: 12px;
+padding-left: 35px;
+padding-right: 35px;
+}
+
 li{
    list-style: none; display: inline-block;
 }
@@ -50,18 +63,9 @@ body{
     background-color: #e5e2e3;
     text-decoration: none;
 }
-header{
-display: flex;
-justify-content: space-around;
+.paragraph{
+    padding: 3rem;
 }
-.nav-contact{
-    border: solid black;
-    border-radius: 8px;
-padding-top: 12px;
-padding-left: 35px;
-padding-right: 35px;
-}
-
 a{
     color: black;
 }
