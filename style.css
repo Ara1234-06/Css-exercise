@@ -45,6 +45,10 @@ color: black;
     width: 25%;
 }
 
+.paragraf-float{
+clear: both;
+}
+
 #paragraf-2_image{
 float: right;
 width: 400px;
