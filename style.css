@@ -134,3 +134,17 @@ background-color: #9c0303;
 .em__p2{
     font-size: 7em;
 }
+
+ul{
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+    background-color: #e0e0e0;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
