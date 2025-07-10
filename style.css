@@ -56,7 +56,14 @@ height: 250px;
 border: 20px;
 padding: 15px;
 margin:20px;
+}
 
+.column{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color:lightblue;
+    column-width: 100px;
 }
 
 .column.middle{
