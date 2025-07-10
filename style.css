@@ -1,171 +1,68 @@
-p {
-    color: red;
-    text-align: right;
+*{
+    box-sizing: border-box;
 }
 
-p {
-color: crimson;
+body{
+    margin: 0;
 }
 
-.title{
-color: blueviolet;
-font-size: 30px;
-background-color: pink;
-text-align: center;
-text-decoration:crimson;
-padding: 10px;
-font-size: large;
-}
-
-.secondary-title{
-color: aqua;
-font-size: 30px;
-}
-
-.third_title{
-    color: chartreuse;
-    font-size: 30px;
-}
-
-h4{
-color: aquamarine;
-}
-
-#background {
-color: darkblue;
-background-color: darkorange;
-}
-
-h6{
-color: darkmagenta;
-}
-
-.div1{
-color: rgb(106, 100, 5);
-font-size: bold;
-}
-
-.div2{
-background-color: tomato;
-padding: 8px
-}
-
-.div3{
-text-align: center;
-font-size: 16px;
-}
-
-.container * {
-padding: 8px;    
-color: green;
-}
-
-h1,h2,h3 {
-font-family: Arial, Helvetica, sans-serif;
-padding-left: 15;
-text-align: justify;
-color: rgb(0, 0, 0);
-}
-a:hover { color: darkcyan;
-   cursor: pointer; 
-
-}
- #Mango li:: {
-content: "✅";
-color: green;
-font-size: 2em;
-}
-
-.common {
-border: solid green;
-background-color: yellow;
-height: 100px;
-width: 250px;
-padding: 25px;
-margin: 25px;
-text-align: center;
-}
-
-.inline{
-    display:inline;
-}
-.inline-block{
-    display:inline-block;
-}
-.block{
-    display: block;
-}
-
-
-#lorem {
-    color:rgb(rgb(184, 11, 11), rgb(30, 255, 30), rgb(19, 19, 214));
-    background-color: rgb(rgb(183, 66, 66), rgb(80, 210, 80), rgb(155, 155, 228));
-}
-p {
-    color: rgb(rgb(204, 37, 37), rgb(49, 176, 49), rgb(14, 14, 230));
-    background-color: rgb(rgb(105, 57, 57), rgb(78, 133, 78), rgb(87, 87, 187));
-}
-#hex {
-    color: #ff0000;
-    background-color: #00FF00;
-}
-
-#rgba {
-    color: rgba(0, 128, 0, 1);
-    background-color: rgba(0, 0, 255, 0.3);
-}
-
-#color-name{
-    color: white;
-    background-color: grey;
-}
-
-.paragraf{
-color: #6eb86e;
-background-color: #ff0000;
-}
-
-.p10{
-    color: rgb(9, 86, 9);
-background-color: #dc5a5a;
-}
-
-#p10{
-color: #00ff00;
-background-color: #9c0303;
-}
-
-.container-days{
-    color: rgb(0, 251, 255);
+/* Style thr header*/
+.header{
+    background-color: #f1f1f1;
+    padding: 20px;
     text-align: center;
 }
-.box{
-  width: 20%;
-  height: 20%;
+
+/* Style the top navigation bar */
+.topnav{
+    overflow: hidden;
+    background-color: #333;
 }
 
-.box1{
-    padding: 40px 40px;
-    width: 40px;
-    height: 40px;
-}
-.em__p1{
-    font-size: 7rem;
-}
-.em__p2{
-    font-size: 7em;
+/* Style the topnav links */
+.topnav a{
+    float: left;
+    display:block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-ul{
-    padding: 0;
-    margin:0;
-    list-style-type: none;
+/* Change color on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+/* Create threeequal columns that floats next to each other */
+.column {
+    float:left;
+    width:33.33%;
+    padding:15px;
 }
 
-li{
-    display: inline-block;
-    margin-right: 15px;
-    background-color: #e0e0e0;
-    padding: 10px 15px;
-    border-radius: 5px;
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+/* Cleare floats after the colums */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other insted of next to each other */
+@media screen and { max-width: 600px;
+    .column.side, .column.middle {width: 100%;}
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
 }
