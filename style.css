@@ -45,6 +45,16 @@ color: black;
     width: 25%;
 }
 
+#paragraf-2_image{
+float: right;
+width: 400px;
+height: 250px;
+border: 20px;
+padding: 15px;
+margin:20px;
+
+}
+
 .column.middle{
     width: 50%;
 }
