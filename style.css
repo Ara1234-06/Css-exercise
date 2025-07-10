@@ -76,6 +76,27 @@ color: green;
 font-size: 2em;
 }
 
+.common {
+border: solid green;
+background-color: yellow;
+height: 100px;
+width: 250px;
+padding: 25px;
+margin: 25px;
+text-align: center;
+}
+
+.inline{
+    display:inline;
+}
+.inline-block{
+    display:inline-block;
+}
+.block{
+    display: block;
+}
+
+
 #lorem {
     color:rgb(rgb(184, 11, 11), rgb(30, 255, 30), rgb(19, 19, 214));
     background-color: rgb(rgb(183, 66, 66), rgb(80, 210, 80), rgb(155, 155, 228));
